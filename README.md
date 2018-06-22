@@ -1,6 +1,4 @@
-<a href="https://explosion.ai"><img src="https://explosion.ai/assets/img/logo.svg" width="125" height="125" align="right" /></a>
-
-# displaCy
+# inazlim/spacy-docker-services
 
 Serve one or more [spaCy models](https://spacy.io/models) and extract syntactic
 dependencies, part-of-speech tags and/or entities. For usage examples, see the
@@ -10,8 +8,7 @@ dependencies, part-of-speech tags and/or entities. For usage examples, see the
 ## Installation
 
 ```bash
-pip install -r requirements.txt
-python app.py
+docker run -p 8080:8080 -d --name some-spacy inazlim/spacy-docker-services
 ```
 
 ## API
